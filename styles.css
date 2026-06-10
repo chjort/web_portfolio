@@ -320,3 +320,54 @@ h1, h2, h3 {
     color: var(--color-text);
     opacity: 0.5;
 }
+
+/* ============================================
+   Responsive
+   ============================================ */
+
+@media (max-width: 1199px) {
+    .header__content {
+        margin-right: 2rem;
+    }
+
+    .header__accent {
+        right: 4%;
+    }
+}
+
+@media (max-width: 767px) {
+    .header {
+        min-height: 80vh;
+        padding: 1.5rem;
+    }
+
+    .header__content {
+        margin-right: 1.5rem;
+    }
+
+    .header__accent {
+        right: 3%;
+    }
+
+    .projects {
+        padding: 0 1rem;
+    }
+
+    .project__image-pair {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .about {
+        padding: var(--space-section) 1rem;
+    }
+
+    .about__details {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .footer {
+        padding: 2rem 1rem;
+    }
+}

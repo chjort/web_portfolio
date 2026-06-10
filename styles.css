@@ -252,3 +252,71 @@ h1, h2, h3 {
 .project__image-pair img {
     width: 100%;
 }
+
+/* ============================================
+   About
+   ============================================ */
+
+.about {
+    max-width: var(--content-width);
+    margin: 0 auto;
+    padding: var(--space-section) 2rem;
+    border-top: 1px solid var(--color-grey-light);
+}
+
+.about__name {
+    font-size: var(--font-size-project-title);
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    margin-bottom: 1.5rem;
+}
+
+.about__bio p {
+    margin-bottom: 1rem;
+    line-height: 1.7;
+}
+
+.about__details {
+    display: flex;
+    gap: 3rem;
+    margin-top: 2rem;
+}
+
+.about__details h3 {
+    font-size: var(--font-size-small);
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    margin-bottom: 0.25rem;
+    color: var(--color-accent);
+}
+
+.about__details p {
+    font-size: var(--font-size-body);
+}
+
+.about__contact {
+    margin-top: 2rem;
+}
+
+.about__contact a {
+    font-size: var(--font-size-body);
+    letter-spacing: 0.02em;
+}
+
+/* ============================================
+   Footer
+   ============================================ */
+
+.footer {
+    max-width: var(--content-width);
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: left;
+}
+
+.footer p {
+    font-size: var(--font-size-small);
+    color: var(--color-text);
+    opacity: 0.5;
+}

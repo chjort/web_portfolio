@@ -72,3 +72,46 @@ h1, h2, h3 {
     color: var(--color-heading);
     font-weight: 500;
 }
+
+/* ============================================
+   Header
+   ============================================ */
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    min-height: 100vh;
+    padding: 2rem;
+    position: relative;
+}
+
+.header__content {
+    text-align: right;
+    margin-right: 3rem;
+}
+
+.header__name {
+    font-size: var(--font-size-h1);
+    font-weight: 400;
+    letter-spacing: 0.3em;
+    color: var(--color-grey-light);
+    text-transform: uppercase;
+}
+
+.header__title {
+    font-size: var(--font-size-subtitle);
+    letter-spacing: 0.2em;
+    color: var(--color-grey-light);
+    margin-top: 0.25rem;
+}
+
+.header__accent {
+    position: absolute;
+    right: 6%;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background-color: var(--color-accent);
+    opacity: 0.6;
+}

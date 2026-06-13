@@ -38,7 +38,4 @@ detailed development and delivery.
 
 ---
 
-The portfolio currently exists as a pdf file @assets/portfolio.pdf, with a sample
-cover letter expressing the character of the architect @assets/coverletter.pdf.
-
-The contents of the website should be based on these assets.
+The portfolio currently exists as a pdf file @assets/portfolio.pdf.

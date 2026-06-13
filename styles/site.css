@@ -100,8 +100,13 @@
 
 .statement {
   margin-block: var(--section-y);
-  max-width: 50ch;
+  max-width: 100ch;
 }
+
+/* Base sets `p { max-width: 62ch }` so paragraphs are 62ch wide;
+   without auto inline margins they pin to the left of .frame and
+   text-align alone won't read as centred. */
+.statement p { margin-inline: auto; }
 
 /* ---------- Index project grid ---------------------------- */
 
@@ -152,8 +157,10 @@
 
 .about-teaser {
   margin-block: var(--section-y);
-  max-width: 50ch;
+  max-width: 100ch;
 }
+
+.about-teaser p { margin-inline: auto; }
 
 .about-teaser a {
   font-weight: 400;

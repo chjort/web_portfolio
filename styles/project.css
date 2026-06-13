@@ -1,0 +1,112 @@
+/* ============================================================
+   project.css — project page header, drawing wrapper, captions,
+   "next project" link.
+   Loaded after base.css. Composes with .spread primitives.
+   ============================================================ */
+
+/* ---------- Project header -------------------------------- */
+
+.project-header {
+  margin-block: var(--section-y) var(--s-5);
+}
+
+.project-header__num {
+  display: block;
+  font-weight: 300;
+  font-size: clamp(2.5rem, 6vw, 4rem);
+  color: var(--accent);
+  letter-spacing: 0.05em;
+  line-height: 1;
+}
+
+.project-header__title {
+  display: block;
+  margin-top: var(--s-2);
+  font-weight: 700;
+  font-size: clamp(1.5rem, 3vw, 2rem);
+  color: var(--ink);
+}
+
+.project-header__meta {
+  display: block;
+  margin-top: var(--s-1);
+  color: var(--body);
+  font-size: 0.9375rem;
+}
+
+.project-header__rule {
+  border: 0;
+  border-top: var(--rule-thin) solid var(--rule);
+  margin-top: var(--s-3);
+}
+
+/* ---------- Drawing wrapper ------------------------------- */
+
+/* Plans, sections, and other technical drawings sit on the muted background
+   so they read as drawings — not renders — and so they don't compete
+   visually with photographic renders adjacent to them. */
+.drawing {
+  background: var(--mute);
+  padding: var(--s-3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.drawing img {
+  width: 100%;
+  height: auto;
+}
+
+/* ---------- Captions -------------------------------------- */
+
+figure {
+  margin: 0;
+}
+
+figure .caption,
+figcaption {
+  display: block;
+  margin-top: var(--s-1);
+  font-size: 0.8125rem;
+  font-weight: 300;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--body);
+}
+
+/* ---------- Spread refinements ---------------------------- */
+
+/* Inside .spread--text-image, the text column uses body type and
+   wraps tightly; the image column fills its grid cell. */
+.spread--text-image .text,
+.spread--asymmetric .text {
+  max-width: 62ch;
+}
+
+.spread--text-image img,
+.spread--asymmetric img,
+.spread--two-up img,
+.spread--three-up img {
+  width: 100%;
+  height: auto;
+}
+
+/* When .spread--text-only is used inside a project page, centre it. */
+.spread--text-only p { margin-inline: auto; }
+
+/* ---------- Next-project link ----------------------------- */
+
+.next-project {
+  border-top: var(--rule-thin) solid var(--rule);
+  margin-block: var(--section-y) var(--s-5);
+  padding-top: var(--s-4);
+  text-align: right;
+}
+
+.next-project a {
+  font-size: 0.875rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--accent);
+}

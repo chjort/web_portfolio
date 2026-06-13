@@ -1,0 +1,242 @@
+{
+  "project-01/image-01": {
+    "height": 335,
+    "width": 595
+  },
+  "project-01/image-02": {
+    "height": 353,
+    "width": 599
+  },
+  "project-01/image-03": {
+    "height": 389,
+    "width": 1331
+  },
+  "project-01/image-04": {
+    "height": 355,
+    "width": 631
+  },
+  "project-01/image-05": {
+    "height": 355,
+    "width": 631
+  },
+  "project-01/image-06": {
+    "height": 587,
+    "width": 429
+  },
+  "project-01/image-07": {
+    "height": 587,
+    "width": 429
+  },
+  "project-01/image-08": {
+    "height": 167,
+    "width": 685
+  },
+  "project-01/image-09": {
+    "height": 578,
+    "width": 817
+  },
+  "project-01/image-10": {
+    "height": 940,
+    "width": 766
+  },
+  "project-01/image-11": {
+    "height": 587,
+    "width": 429
+  },
+  "project-02/image-01": {
+    "height": 865,
+    "width": 598
+  },
+  "project-02/image-02": {
+    "height": 542,
+    "width": 1639
+  },
+  "project-02/image-03": {
+    "height": 809,
+    "width": 1415
+  },
+  "project-02/image-04": {
+    "height": 562,
+    "width": 922
+  },
+  "project-02/image-05": {
+    "height": 444,
+    "width": 658
+  },
+  "project-02/image-06": {
+    "height": 608,
+    "width": 1719
+  },
+  "project-02/image-08": {
+    "height": 413,
+    "width": 893
+  },
+  "project-02/image-09": {
+    "height": 413,
+    "width": 452
+  },
+  "project-02/image-10": {
+    "height": 443,
+    "width": 851
+  },
+  "project-02/image-11": {
+    "height": 479,
+    "width": 824
+  },
+  "project-02/image-12": {
+    "height": 413,
+    "width": 893
+  },
+  "project-02/image-13": {
+    "height": 413,
+    "width": 457
+  },
+  "project-02/image-14": {
+    "height": 460,
+    "width": 433
+  },
+  "project-02/image-15": {
+    "height": 460,
+    "width": 433
+  },
+  "project-02/image-16": {
+    "height": 460,
+    "width": 433
+  },
+  "project-02/image-17": {
+    "height": 401,
+    "width": 1011
+  },
+  "project-02/image-18": {
+    "height": 401,
+    "width": 1012
+  },
+  "project-02/image-19": {
+    "height": 942,
+    "width": 598
+  },
+  "project-02/image-20": {
+    "height": 561,
+    "width": 1415
+  },
+  "project-02/image-21": {
+    "height": 561,
+    "width": 1415
+  },
+  "project-02/image-22": {
+    "height": 561,
+    "width": 1415
+  },
+  "project-02/image-23": {
+    "height": 344,
+    "width": 611
+  },
+  "project-02/image-24": {
+    "height": 344,
+    "width": 611
+  },
+  "project-02/image-25": {
+    "height": 344,
+    "width": 611
+  },
+  "project-02/image-26": {
+    "height": 344,
+    "width": 611
+  },
+  "project-02/image-27": {
+    "height": 375,
+    "width": 672
+  },
+  "project-02/image-28": {
+    "height": 371,
+    "width": 673
+  },
+  "project-03/image-01": {
+    "height": 334,
+    "width": 594
+  },
+  "project-03/image-02": {
+    "height": 335,
+    "width": 595
+  },
+  "project-03/image-03": {
+    "height": 940,
+    "width": 1329
+  },
+  "project-03/image-04": {
+    "height": 940,
+    "width": 1329
+  },
+  "project-03/image-05": {
+    "height": 344,
+    "width": 611
+  },
+  "project-03/image-06": {
+    "height": 344,
+    "width": 611
+  },
+  "project-03/image-07": {
+    "height": 344,
+    "width": 611
+  },
+  "project-03/image-08": {
+    "height": 344,
+    "width": 611
+  },
+  "project-03/image-09": {
+    "height": 940,
+    "width": 1329
+  },
+  "project-03/image-10": {
+    "height": 940,
+    "width": 1329
+  },
+  "project-04/image-01": {
+    "height": 757,
+    "width": 658
+  },
+  "project-04/image-02": {
+    "height": 652,
+    "width": 1047
+  },
+  "project-04/image-03": {
+    "height": 242,
+    "width": 452
+  },
+  "project-04/image-04": {
+    "height": 242,
+    "width": 452
+  },
+  "project-04/image-05": {
+    "height": 242,
+    "width": 404
+  },
+  "project-04/image-06": {
+    "height": 423,
+    "width": 598
+  },
+  "project-04/image-07": {
+    "height": 424,
+    "width": 596
+  },
+  "project-04/image-08": {
+    "height": 357,
+    "width": 505
+  },
+  "project-04/image-09": {
+    "height": 357,
+    "width": 441
+  },
+  "project-04/image-10": {
+    "height": 357,
+    "width": 448
+  },
+  "project-04/image-11": {
+    "height": 471,
+    "width": 526
+  },
+  "project-04/image-12": {
+    "height": 487,
+    "width": 758
+  }
+}

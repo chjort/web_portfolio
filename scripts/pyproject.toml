@@ -1,8 +1,14 @@
 [project]
 name = "extract-images"
 version = "0.1.0"
-description = "Extract project images from portfolio PDF"
+description = "Extract and optimize project images for the portfolio site"
 requires-python = ">=3.13"
 dependencies = [
     "pymupdf>=1.27.2.3",
+    "pillow>=11.0.0",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.0.0",
 ]

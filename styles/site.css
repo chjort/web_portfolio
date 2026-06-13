@@ -184,7 +184,12 @@
   letter-spacing: 0.12em;
   text-transform: uppercase;
   color: var(--accent);
+  margin-top: var(--s-5);
   margin-bottom: var(--s-2);
+}
+
+.about-block h2:first-child {
+  margin-top: 0;
 }
 
 .about-block dl {

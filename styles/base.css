@@ -139,23 +139,6 @@ p { margin: 0 0 var(--s-2); max-width: 62ch; }
   color: var(--ink);
 }
 
-.t-caption {
-  font-size: 0.8125rem;
-  font-weight: 300;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  color: var(--body);
-  line-height: 1.4;
-}
-
-.t-numeral {
-  font-weight: 300;
-  font-size: clamp(2rem, 5vw, 3.5rem);
-  color: var(--accent);
-  line-height: 1;
-  letter-spacing: 0.05em;
-}
-
 /* ---------- Layout primitives ----------------------------- */
 
 .frame {
@@ -169,10 +152,6 @@ p { margin: 0 0 var(--s-2); max-width: 62ch; }
   border: 0;
   border-top: var(--rule-thin) solid var(--rule);
   margin: var(--s-5) 0;
-}
-
-.rule--accent {
-  border-top-color: var(--accent);
 }
 
 /* Spread primitives: vertical blocks composed by HTML. */

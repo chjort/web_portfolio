@@ -3,6 +3,17 @@
    Loaded after base.css.
    ============================================================ */
 
+/* Small uppercase section labels (e.g., "Selected Work", "Contact") */
+.section-eyebrow {
+  text-align: center;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  font-weight: 300;
+  color: var(--accent);
+  font-size: 0.875rem;
+  margin: 0 0 var(--s-3);
+}
+
 /* ---------- Header (every page) --------------------------- */
 
 .site-header {

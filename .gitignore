@@ -10,4 +10,14 @@ wheels/
 
 # Virtual environments
 .venv
-scripts/
+
+# uv-managed virtualenv inside scripts/
+scripts/.venv/
+
+# Editor / OS scratch
+.DS_Store
+*.swp
+.vscode/
+
+# Pytest cache
+.pytest_cache/

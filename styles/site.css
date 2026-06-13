@@ -1,0 +1,229 @@
+/* ============================================================
+   site.css — header, nav, index page, about page.
+   Loaded after base.css.
+   ============================================================ */
+
+/* ---------- Header (every page) --------------------------- */
+
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: var(--bg);
+  border-bottom: var(--rule-thin) solid var(--rule);
+}
+
+.site-header__inner {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: var(--s-4);
+  padding-block: var(--s-3);
+}
+
+.site-header__wordmark {
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  color: var(--ink);
+  font-size: 0.9375rem;
+  white-space: nowrap;
+}
+
+.site-nav {
+  display: flex;
+  gap: var(--s-4);
+}
+
+.site-nav a {
+  color: var(--body);
+  font-size: 0.875rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.site-nav a[aria-current="page"] {
+  color: var(--ink);
+  border-bottom: var(--rule-thin) solid var(--accent);
+  padding-bottom: 2px;
+}
+
+/* ---------- Index hero ------------------------------------ */
+
+.hero {
+  position: relative;
+  min-height: calc(100vh - 4rem);  /* viewport minus header */
+  display: flex;
+  align-items: flex-end;
+  padding-block: var(--s-7);
+}
+
+/* Vertical hairline: starts at top of hero, ends at ~75% height. */
+.hero::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 25%;
+  right: 33%;
+  width: 1px;
+  background: var(--accent);
+}
+
+.hero__wordmark {
+  /* Sits in the lower third, just left of the hairline (which is at 33% from right). */
+  margin-right: 35%;
+  margin-left: auto;
+  text-align: right;
+}
+
+.hero__wordmark .t-hero { display: block; }
+.hero__wordmark .t-hero-sub { display: block; margin-top: var(--s-2); }
+.hero__wordmark .t-hero-meta { display: block; margin-top: var(--s-1); }
+
+@media (max-width: 599px) {
+  .hero::after { right: 8%; }
+  .hero__wordmark { margin-right: 12%; }
+}
+
+/* ---------- Index statement ------------------------------- */
+
+.statement {
+  margin-block: var(--section-y);
+  max-width: 50ch;
+}
+
+/* ---------- Index project grid ---------------------------- */
+
+.work-grid {
+  display: grid;
+  gap: var(--s-5);
+  margin-block: var(--section-y);
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 600px) { .work-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (min-width: 1000px) { .work-grid { grid-template-columns: repeat(4, 1fr); } }
+
+.work-card {
+  display: block;
+  color: inherit;
+  text-align: center;
+}
+
+.work-card img {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  background: var(--mute);
+  transition: opacity 200ms ease;
+}
+
+.work-card__num {
+  display: block;
+  margin-top: var(--s-2);
+  font-weight: 300;
+  letter-spacing: 0.1em;
+  color: var(--accent);
+}
+
+.work-card__title {
+  display: block;
+  margin-top: var(--s-1);
+  font-weight: 400;
+  color: var(--ink);
+  transition: transform 300ms ease;
+}
+
+.work-card:hover img { opacity: 0.92; }
+.work-card:hover .work-card__title { transform: translateY(-2px); }
+
+/* ---------- Index about teaser ---------------------------- */
+
+.about-teaser {
+  margin-block: var(--section-y);
+  max-width: 50ch;
+}
+
+.about-teaser a {
+  font-weight: 400;
+  border-bottom: var(--rule-thin) solid var(--accent);
+  padding-bottom: 2px;
+}
+
+/* ---------- About page ------------------------------------ */
+
+.about-header {
+  margin-block: var(--section-y) var(--s-4);
+}
+
+.about-grid {
+  display: grid;
+  gap: var(--s-5);
+  margin-block: var(--section-y);
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 800px) {
+  .about-grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+.about-block h2 {
+  font-size: 0.875rem;
+  font-weight: 300;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: var(--s-2);
+}
+
+.about-block dl {
+  margin: 0 0 var(--s-4);
+}
+
+.about-block dt {
+  font-weight: 400;
+  color: var(--ink);
+  margin-top: var(--s-2);
+}
+
+.about-block dd {
+  margin: 0;
+  color: var(--body);
+  font-size: 0.9375rem;
+}
+
+.skill-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--s-1);
+}
+
+.skill-tags li {
+  border: var(--rule-thin) solid var(--rule);
+  padding: 4px 10px;
+  font-size: 0.8125rem;
+  font-weight: 300;
+  color: var(--body);
+}
+
+.contact-block {
+  margin-block: var(--section-y);
+}
+
+.contact-block dt {
+  font-size: 0.75rem;
+  font-weight: 300;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-top: var(--s-2);
+}
+
+.contact-block dd {
+  margin: 0;
+  font-size: 1.125rem;
+}
+
+.contact-block dd a {
+  font-weight: 700;
+}

@@ -36,6 +36,12 @@ highlight both conceptual thinking and technical execution, presenting the archi
 someone capable of contributing to complex projects from early design stages through
 detailed development and delivery.
 
----
+# Context
 
-The portfolio currently exists as a pdf file @assets/portfolio.pdf.
+The portfolio currently exists as a pdf file @assets/portfolio.pdf. Images have
+already been extracted from the pdf and are stored in images/ per project. For
+project 2, picture @images/project-2/image-07.jpeg should not be used.
+The portfolio should be used for design inspiration and information about each project.
+
+There is also a CV about the architect in @assets/cv.pdf. This can be used for
+profiling and contact information.

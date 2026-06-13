@@ -226,6 +226,12 @@
   margin-block: var(--section-y);
 }
 
+/* Override .section-eyebrow's centred default — on the about page the
+   "Contact" label aligns left with the about-grid columns above. */
+.contact-block .section-eyebrow {
+  text-align: left;
+}
+
 .contact-block dt {
   font-size: 0.75rem;
   font-weight: 300;
